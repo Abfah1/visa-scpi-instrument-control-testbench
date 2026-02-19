@@ -1,0 +1,74 @@
+﻿FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY '*IDN?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Potential SCPI Device: KEYSIGHT TECHNOLOGIES,MSO-X 3054A,MY54490123,10.00.2018021312
+
+FakeVisaInstrument: Closed
+FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisaInstrument: Closed
+FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY '*IDN?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Using SCPI Device:     KEYSIGHT TECHNOLOGIES,MSO-X 3054A,MY54490123,10.00.2018021312 of series: MSOX3
+
+Running in DRY-RUN mode. Synthetic data will be used.
+FakeVisa: QUERY_BINARY ':DISPlay:DATA? PNG,SCReen,ON,NORMal'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Hardcopy Output file: C:\Users\fma22\OneDrive\Desktop\AOI\Projects\oscope-scpi-main\oscope-scpi-main/outfile-20260218-180359.png
+DEBUG: args.waveform=[['1', 'wave.npz']]
+DEBUG: valid channels=['CHAN1', 'CHAN2', 'CHAN3', 'CHAN4', 'POD1', 'POD2']
+DEBUG: Processing channel 'CHAN1'. Valid: ['CHAN1', 'CHAN2', 'CHAN3', 'CHAN4', 'POD1', 'POD2']
+FakeVisa: WRITE ':WAVeform:SOURce CHAN1'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY ':WAVeform:SOURce?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY ':WAVeform:VIEW?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: WRITE ':WAVeform:FORMat WORD'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: WRITE ':WAVeform:BYTeorder LSBFirst'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY ':WAVeform:PREamble?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: WRITE ':WAVeform:STReaming OFF'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY_BINARY ':WAVeform:DATA?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+                       Date: 0
+                       Time: 0
+              Frame model #: 0
+            Waveform source: CHAN1
+              Waveform view: MAIN
+            Waveform format: WORD
+               Acquire mode: RTIMe
+               Acquire type: RAW
+                   Coupling: AC
+  Waveform points available: 1000
+     Waveform average count: 1
+       Waveform X increment: 1.0E-6
+          Waveform X origin: 0
+       Waveform X reference: 0
+       Waveform Y increment: 0.01
+          Waveform Y origin: 0
+       Waveform Y reference: 32768
+   Waveform X display range: 0
+  Waveform X display origin: 0
+   Waveform Y display range: 0
+  Waveform Y display origin: 0
+           Waveform X units: VOLT
+           Waveform Y units: VOLT
+               Max BW limit: 0
+               Min BW limit: 0
+             Completion pct: 0
+  Waveform bytes downloaded: 2000
+
+Close the plot window to continue...

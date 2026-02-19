@@ -1,0 +1,32 @@
+﻿FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY '*IDN?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Potential SCPI Device: KEYSIGHT TECHNOLOGIES,MSO-X 3054A,MY54490123,10.00.2018021312
+
+FakeVisaInstrument: Closed
+FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisaInstrument: Closed
+FakeVisaInstrument: Opened TCPIP0::172.16.2.13::INSTR
+FakeVisa: QUERY '*IDN?'
+FakeVisa: WRITE '*CLS'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+FakeVisa: QUERY '*IDN?'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Using SCPI Device:     KEYSIGHT TECHNOLOGIES,MSO-X 3054A,MY54490123,10.00.2018021312 of series: MSOX3
+
+Running in DRY-RUN mode. Synthetic data will be used.
+FakeVisa: QUERY_BINARY ':DISPlay:DATA? PNG,SCReen,ON,NORMal'
+FakeVisa: QUERY ':SYSTem:ERRor?'
+Hardcopy Output file: C:\Users\fma22\OneDrive\Desktop\AOI\Projects\oscope-scpi-main\oscope-scpi-main/outfile-20260218-164226.png
+DEBUG: args.waveform=[['1', 'wave.npz']]
+DEBUG: valid channels=['CHAN1', 'CHAN2', 'CHAN3', 'CHAN4', 'POD1', 'POD2']
+DEBUG: Processing channel '1'. Valid: ['CHAN1', 'CHAN2', 'CHAN3', 'CHAN4', 'POD1', 'POD2']
+INVALID Channel Value: 1  SKIPPING!
+Done
+FakeVisaInstrument: Closed
